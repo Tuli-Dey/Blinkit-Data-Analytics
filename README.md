@@ -25,3 +25,7 @@ Below are the interactive dashboards created in this project -
 > This project focuses on building a comprehensive analytics solution for Blinkit using multiple datasets. Six interactive dashboards were created in Looker Studio to analyze different business domains including Products, Orders, Customer Feedback, Inventory, Marketing Performance, and Order Items.
 
 The primary objective of this project is to identify trends, patterns, and inefficiencies, enabling better decision-making through data visualization. By integrating data from multiple sources into a unified dashboard system, the project provides a holistic view of business performance and supports optimization of operations, inventory control, and marketing strategies.
+
+---
+
+# 3. 
