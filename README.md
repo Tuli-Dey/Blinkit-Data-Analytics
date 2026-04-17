@@ -1,7 +1,13 @@
-# 🛒 Blinkit Products Dataset Analysis Dashboard
+# 🛒 Blinkit Multiple Dataset Analysis Project
 
-> An interactive **Blinkit Products Dataset Analysis Dashboard** built using **Looker Studio** to explore product id, product name, category, brand, price, margin_percentage, shelf_life_days, min_stock_level, max_stock_level, profit_amount, expected_margin Analysis. The goal is to extract meaningful insights and visualize patterns in the Blinkit Products using data-driven techniques.
+> Developed a comprehensive **Blinkit Multi-Dataset Analysis Dashboard** using **Looker Studio** consisting of **6** interactive dashboards covering Products, Orders, Customer Feedback, Inventory, Marketing Performance, and Order Items. Analyzed key metrics such as pricing, margins, delivery performance, customer sentiment, stock levels, campaign effectiveness, and revenue generation. Enabled data-driven decision-making by identifying trends, optimizing inventory and marketing strategies, and improving operational efficiency through insightful visualizations.
+- End-to-end data analysis across **multiple business functions**
+- Visualization of critical metrics such as **profitability, delivery performance, customer sentiment, and ROAS**
+- Identification of **patterns, trends, and anomalies** in operations
+- Improved **decision-making through interactive dashboards and KPIs**
+  
 ---
+
 # 1. Project Title
 > Blinkit Products Dataset Analysis and Visualization using Looker studio.
 # 2.  
