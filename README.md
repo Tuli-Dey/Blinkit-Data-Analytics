@@ -9,5 +9,15 @@
 ---
 
 # 1. Project Title
-> Blinkit Products Dataset Analysis and Visualization using Looker studio.
+
+Below are the interactive dashboards created in this project -
+- Blinkit Products Dataset Analysis Dashboard.
+- Blinkit Orders Analysis Dashboard.
+- Blinkit Customer Feedback Analysis Dashboard.
+- Blinkit Inventory Analysis Dashboard.
+- Blinkit Marketing Performance Analysis Dashboard
+- Blinkit Order Items Analysis Dashboard
+
+---
+
 # 2.  
