@@ -52,4 +52,36 @@ Below are the Dashboard created in **Looker Studio** -
 
   ---
 
-  
+# 4. Data Dictionary
+
+Below are the description of each Columns used in the **Product dataset** -
+| Column Name       | Data Type| Description                                                                            |
+|-------------------|----------|----------------------------------------------------------------------------------------|
+| product_id        | Integer  | Unique values for each column                                                          |
+| product_name      | Text     | Name of the products                                                                   |
+| category          | Text     | Category of the product (Fruits & Vegetables, Dairy & Breakfast etc.)                  |
+| brand             | Text     | Brand name (Aurora LLC, Ramaswamy-Tata, etc.)                                          |
+| price             | Integer  | Price of the product                                                                   |
+| mrp               | Integer  | Maximum Retail Price of the product                                                    |
+| margin_percentage | Integer  | Percentage of profit earned on a product relative to its selling price                 |
+| shelf_life_days   | Integer  | Number of days a product remains safe and usable before it expires.                    |
+| min_stock_level   | Integer  | Minimum quantity of a product that should be maintained to avoid stock shortages       |
+| max_stock_level   | Integer  | maximum quantity of a product that should be kept in inventory to avoid overstocking   |
+| profit_amount     | Integer  | total amount earned after subtracting all costs from the selling price                 |
+| expected_margin   | Integer  | percentage of profit a business aims to earn on a product or sale                      |
+
+Below are the description of each Columns used in the **Order dataset** -
+| Column Name       | Data Type| Description                                                                            |
+|-------------------|----------|----------------------------------------------------------------------------------------|
+| order_id          | Integer  | Unique values for each column                                                          |
+| customer_id       | Integer  | Unique values for each column                                                          |
+| order_date        | Date     | date and time when a customer places an order                                          |
+| promised_time     | Date     | date and time when order will be delivered                                             |
+| actual_time       | Date     | date and time when order received                                                      |
+|delivery_time_minutes| Integer| Subtraction of actual_time from promised_time                                          |
+| delivery_status   | Text     | Status of the delivery (On-Time, Delayed)                                              |
+| order_total       | Integer  | Total order value                                                                      |
+| payment_method    | Text     | In which method payment has been done                                                  |
+| max_stock_level   | Integer  | maximum quantity of a product that should be kept in inventory to avoid overstocking   |
+| delivery_partner_id| Integer | Unique values for each column                                                          |
+| store_id          | Integer  | Unique values for each column                                                          |
