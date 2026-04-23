@@ -82,6 +82,5 @@ Below are the description of each Columns used in the **Order dataset** -
 | delivery_status   | Text     | Status of the delivery (On-Time, Delayed)                                              |
 | order_total       | Integer  | Total order value                                                                      |
 | payment_method    | Text     | In which method payment has been done                                                  |
-| max_stock_level   | Integer  | maximum quantity of a product that should be kept in inventory to avoid overstocking   |
 | delivery_partner_id| Integer | Unique values for each column                                                          |
 | store_id          | Integer  | Unique values for each column                                                          |
