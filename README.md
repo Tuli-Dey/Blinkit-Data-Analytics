@@ -133,6 +133,103 @@ Below are the description of each Columns used in the **Order Items dataset** -
 
 ---
 
+# 5. Cleaning Notes
+Below are the cleaning steps were performed to prepare the dataset into meaningful insights -
+- In **Blinkit Order Datadet** I have created one new column called **delivery_time_minutes** to check the order is in **delayed** position or **On-time**. So that firstly I have calculate **(actual_time - promised_time)** and Based on that we have generated another column that is **delivery_status**. The condition of delivery_status is, **if delivery_time_minutes > 0, then Delayed else On-Time**.
+- Changed the number format if **order_total** column.
 
+---
 
+# 6. Analytics View
+Below are the KPIs used in the **Product Dashboard** -
+- Total Buying Cost of the products.
+- Total Selling Cost of the products.
+- Avg Buying Cost of the products.
+- Avg Selling Cost of the products.
+- Avg Margin Percentage.
+- Avg shelf life calculation in days.
+- Avg Min stock of products.
+- Avg Max stock of products.
+- Avg Profit earned from a product.
+- Avg Expected Margin of the product.
+
+Below is the description of the charts used in the dashboard -
+
+- Category wise calculation of Avg Buying Cost, Avg Selling Cost & Avg Profit amount.
+- Distribution of Avg Max Stock & Avg Min Stock Level.
+- Category wise created one table and visualize Buying Cost, Selling Cost, Margin Percentage & shelf life days.
+- Category wise Avg Margin Percentage.
+
+Below are the KPIs used in the **Order Dashboard** -
+
+- Total Order IDs.
+- Order Total Amount.
+- Maximum Order Total Amount.
+- Max Delivery Time in Mins.
+- Total Store IDs.
+
+Below is the description of the charts used in the dashboard -
+
+- Count of Order ID by Delivery Status
+- Payment Mode wise Total Order calculation.
+- Payment Mode wise Delivery time in Minutes calculation.
+- Payment Mode wise Total Order id calculation.
+
+Below are the KPIs used in the **Customer Dashboard** -
+
+- Total Feedback IDs.
+- Avg Rating of products.
+- Total Customer IDs.
+- Sum of Order Total.
+
+Below is the description of the charts used in the dashboard -
+
+- Feedback Category wise Avg of Rating.
+- Feedback Category wise Count of Feedback ID.
+- Customer Segment wise created one table and visualize Count of customer_id & Sum of Order_totals
+
+Below are the KPIs used in the **Inventory Dashboard** -
+
+- Count of Product IDs.
+- Total Stock calculation.
+- Total Damaged stock calculation.
+
+Below is the description of the charts used in the dashboard -
+
+- Date wise count of Product ID calculation.
+- Date wise total stock calculation.
+- Date wise total received stock and total damaged stock calculation.
+
+Below are the KPIs used in the **Marketing Performance Dashboard** -
+
+- Sum of impressions.
+- Sum of clicks.
+- Sum of conversions.
+- Total Revenue calculation.
+- Sum of spend.
+- Avg of roas_calculated.
+
+Below is the description of the charts used in the dashboard -
+
+- Channel wise sum of spend and sum of impressions calculation.
+- Distribution of avg of roas_calculated by SUM of clicks.
+- Channel wise created one table and visualize Sum of impressions, Sum of clicks, Sum of conversions, Sum of spend, sum of revenue generated, Avg of roas_calculated.
+- Avg of roas calculated by Channel and SUM of clicks.
+
+Below are the KPIs used in the **Order items Dashboard** -
+
+- Calculation of total order ID.
+- Count of total quantity.
+- Sum of total quantity.
+- Avg of unit price calculation.
+- Total revenue calculation.
+
+Below is the description of the charts used in the dashboard -
+
+- Quantity wise total unit price.
+- Distribution of Unit Price by Revenue.
+- Quantity wise created one table and visualize unit price &  total revenue calculation.
+- Quantity wise Total Revenue calculation.
+
+---
 
