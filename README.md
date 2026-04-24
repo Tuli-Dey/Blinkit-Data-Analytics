@@ -64,23 +64,75 @@ Below are the description of each Columns used in the **Product dataset** -
 | price             | Integer  | Price of the product                                                                   |
 | mrp               | Integer  | Maximum Retail Price of the product                                                    |
 | margin_percentage | Integer  | Percentage of profit earned on a product relative to its selling price                 |
-| shelf_life_days   | Integer  | Number of days a product remains safe and usable before it expires.                    |
+| shelf_life_days   | Integer  | Number of days a product remains safe and usable before it expires                     |
 | min_stock_level   | Integer  | Minimum quantity of a product that should be maintained to avoid stock shortages       |
-| max_stock_level   | Integer  | maximum quantity of a product that should be kept in inventory to avoid overstocking   |
-| profit_amount     | Integer  | total amount earned after subtracting all costs from the selling price                 |
-| expected_margin   | Integer  | percentage of profit a business aims to earn on a product or sale                      |
+| max_stock_level   | Integer  | Maximum quantity of a product that should be kept in inventory to avoid overstocking   |
+| profit_amount     | Integer  | Total amount earned after subtracting all costs from the selling price                 |
+| expected_margin   | Integer  | Percentage of profit a business aims to earn on a product or sale                      |
 
 Below are the description of each Columns used in the **Order dataset** -
 | Column Name       | Data Type| Description                                                                            |
 |-------------------|----------|----------------------------------------------------------------------------------------|
 | order_id          | Integer  | Unique values for each column                                                          |
 | customer_id       | Integer  | Unique values for each column                                                          |
-| order_date        | Date     | date and time when a customer places an order                                          |
-| promised_time     | Date     | date and time when order will be delivered                                             |
-| actual_time       | Date     | date and time when order received                                                      |
+| order_date        | Date     | Date and time when a customer places an order                                          |
+| promised_time     | Date     | Date and time when order will be delivered                                             |
+| actual_time       | Date     | Date and time when order received                                                      |
 |delivery_time_minutes| Integer| Subtraction of actual_time from promised_time                                          |
 | delivery_status   | Text     | Status of the delivery (On-Time, Delayed)                                              |
 | order_total       | Integer  | Total order value                                                                      |
-| payment_method    | Text     | In which method payment has been done                                                  |
+| payment_method    | Text     | Which method payment has been done                                                     |
 | delivery_partner_id| Integer | Unique values for each column                                                          |
 | store_id          | Integer  | Unique values for each column                                                          |
+
+Below are the description of each Columns used in the **Customer dataset** -
+| Column Name       | Data Type| Description                                                                            |
+|-------------------|----------|----------------------------------------------------------------------------------------|
+| feedback_id       | Integer  | Unique values for each column                                                          |
+| order_id          | Integer  | Unique values for each column                                                          |
+| customer_id       | Integer  | Unique values for each column                                                          |
+| rating            | Integer  | Review of the product                                                                  |
+| feedback _Text    | Text     | Review provided by the customer about their experience                                 |
+| feedback_category | Text     | Classification of feedback (delivery, App Experience etc.)                             |
+| sentiment         | Text     | Overall emotional tone of the feedback (positive, negative etc.)                       |
+| feedback_date     | Date     | The date when the customer feedback was submitted                                      |
+
+Below are the description of each Columns used in the **Inventory dataset** -
+| Column Name       | Data Type| Description                                                                            |
+|-------------------|----------|----------------------------------------------------------------------------------------|
+| product_id        | Integer  | Unique values for each column                                                          |
+| Date              | Date     | When stock received of the product                                                     |
+| stock_received    | Integer  | Quantity of inventory items received and added to stock during a specific period or transaction |
+| damaged_stock     | Integer  | Quantity of inventory items that are defective, broken, or unsellable due to damage    |
+| actual_stock_validity| Text  | Checking of stock validity                                                             |
+
+Below are the description of each Columns used in the **Marketing Performance dataset** -
+| Column Name       | Data Type| Description                                                                            |
+|-------------------|----------|----------------------------------------------------------------------------------------|
+| campaign_id       | Integer  | Unique values for each column                                                          |
+| campaign_name     | Text     | Name assigned to a specific marketing campaign                                         |
+| date              | Date     | The date on which the campaign performance data is recorded                            |
+| target_audience   | Text     | Specific customer segment targeted by the campaign                                     |
+| channel           | Text     | Platform or medium used to run the campaign (App, Email, SMS, etc.)                    |
+| impressions       | Integer  | Total number of times the campaign was displayed to users                              |
+| clicks            | Integer  | Number of times users clicked on the campaign                                          |
+| conversions       | Integer  | Number of users who completed the desired action                                       |
+| spend             | Integer  | Total amount of money spent on running the campaign                                    |
+| revenue_generated | Integer  | Total revenue earned from the campaign                                                 |
+| roas              | Integer  | Reported return on ad spend (revenue divided by spend)                                 |
+| roas_calculated   | Integer  | System-calculated return on ad spend based on actual revenue and spend values          |
+
+Below are the description of each Columns used in the **Order Items dataset** -
+| Column Name       | Data Type| Description                                                                            |
+|-------------------|----------|----------------------------------------------------------------------------------------|
+| order_id          | Integer  | Unique values for each column                                                          |
+| Product_id        | Integer  | Unique values for each column                                                          |
+| quantity          | Integer  | Number of units of the product ordered                                                 |
+| unit_price        | Integer  | Cost of one unit of the product                                                        |
+| revenue_logic     | Integer  | Total revenue calculated as quantity multiplied by unit price                          |
+
+---
+
+
+
+
