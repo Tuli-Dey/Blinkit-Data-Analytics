@@ -341,6 +341,7 @@ The platform processed 5,000 orders with a total quantity of 10,034 items, gener
 
 3. Price–Revenue Distribution:
 The scatter plot reveals that as unit price increases, revenue also tends to rise, reinforcing a positive correlation between price and revenue. Most high-revenue points cluster around higher unit price values (above 800K).<br>
+
 Overall, the data suggests Blinkit’s top revenue comes from higher-quantity orders with premium unit prices, highlighting an opportunity to optimize pricing and promotions for these segments.
 
 ---
