@@ -233,3 +233,42 @@ Below is the description of the charts used in the dashboard -
 
 ---
 
+# 7. Dashboard Image
+
+> **Product Dashboard Image**
+_________________________________________________________________________________________________________________________________
+
+<img width="1021" height="767" alt="Product Dashboard" src="https://github.com/user-attachments/assets/1e7a7ef8-64af-483d-be60-28453b990792" />
+
+> **Order Dashboard Image**
+__________________________________________________________________________________________________________________________________
+
+<img width="1017" height="767" alt="Order Dashboard" src="https://github.com/user-attachments/assets/b1a6c8e6-f3f5-4f21-a8c3-7f835cdc8115" />
+
+> **Customer Dashboard Image**
+___________________________________________________________________________________________________________________________________
+
+<img width="1023" height="763" alt="Customer Dashboard" src="https://github.com/user-attachments/assets/a548c0d8-5fc0-4a57-b601-a8778834554b" />
+
+> **Inventory Dashboard Image**
+____________________________________________________________________________________________________________________________________
+
+<img width="1025" height="767" alt="Inventory Dashboard" src="https://github.com/user-attachments/assets/2c53fc50-3fe9-4e63-84f8-19e570750d88" />
+
+> **Marketing Performance Dashboard Image**
+____________________________________________________________________________________________________________________________________
+
+<img width="1020" height="767" alt="Marketing Performance Dashboard" src="https://github.com/user-attachments/assets/e20208f8-af7f-439c-8703-dd2875651467" />
+
+> **Order Items Dashboard Image**
+____________________________________________________________________________________________________________________________________
+
+<img width="1022" height="767" alt="Order Items Dashboard" src="https://github.com/user-attachments/assets/596341ec-22f8-4619-97bb-009b80b90295" />
+
+---
+
+
+
+
+
+
