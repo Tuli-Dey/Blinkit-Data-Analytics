@@ -42,7 +42,7 @@ The primary objective of this project is to identify trends, patterns, and ineff
 - **Marketing Performance Pivot Table.xlsx** - Pivot Analysis based on **Channel** (App, Email, etc.)
 - **Order Items Pivot Table.xlsx** - Pivot Analysis based on **Quantity** (2,1,3)
 ## Dashboard
-Below are the Dashboard created in **Looker Studio** -
+Below are the Dashboards created in **Looker Studio** -
 - **Product Dashboard.png** - Screenshot of the Product dashboard.
 - **Order Dashboard.png** - Screenshot of the Order dashboard.
 - **Customer Dashboard.png** - Screenshot of the Customer dashboard.
@@ -238,27 +238,32 @@ Below is the description of the charts used in the dashboard -
 > **Product Dashboard Image**
 _________________________________________________________________________________________________________________________________
 
-<img width="1021" height="767" alt="Product Dashboard" src="https://github.com/user-attachments/assets/1e7a7ef8-64af-483d-be60-28453b990792" />
+<img width="1021" height="767" alt="Product Dashboard" src="https://github.com/user-attachments/assets/1e7a7ef8-64af-483d-be60-28453b990792" /><br><br>
+
 
 > **Order Dashboard Image**
 __________________________________________________________________________________________________________________________________
 
-<img width="1017" height="767" alt="Order Dashboard" src="https://github.com/user-attachments/assets/b1a6c8e6-f3f5-4f21-a8c3-7f835cdc8115" />
+<img width="1017" height="767" alt="Order Dashboard" src="https://github.com/user-attachments/assets/b1a6c8e6-f3f5-4f21-a8c3-7f835cdc8115" /><br><br>
+
 
 > **Customer Dashboard Image**
 ___________________________________________________________________________________________________________________________________
 
-<img width="1023" height="763" alt="Customer Dashboard" src="https://github.com/user-attachments/assets/a548c0d8-5fc0-4a57-b601-a8778834554b" />
+<img width="1023" height="763" alt="Customer Dashboard" src="https://github.com/user-attachments/assets/a548c0d8-5fc0-4a57-b601-a8778834554b" /><br><br>
+
 
 > **Inventory Dashboard Image**
 ____________________________________________________________________________________________________________________________________
 
-<img width="1025" height="767" alt="Inventory Dashboard" src="https://github.com/user-attachments/assets/2c53fc50-3fe9-4e63-84f8-19e570750d88" />
+<img width="1025" height="767" alt="Inventory Dashboard" src="https://github.com/user-attachments/assets/2c53fc50-3fe9-4e63-84f8-19e570750d88" /><br><br>
+
 
 > **Marketing Performance Dashboard Image**
 ____________________________________________________________________________________________________________________________________
 
-<img width="1020" height="767" alt="Marketing Performance Dashboard" src="https://github.com/user-attachments/assets/e20208f8-af7f-439c-8703-dd2875651467" />
+<img width="1020" height="767" alt="Marketing Performance Dashboard" src="https://github.com/user-attachments/assets/e20208f8-af7f-439c-8703-dd2875651467" /><br><br>
+
 
 > **Order Items Dashboard Image**
 ____________________________________________________________________________________________________________________________________
@@ -267,8 +272,79 @@ ________________________________________________________________________________
 
 ---
 
+# 8. Analysis Report
 
+Below is the **Product Dashboard** Analysis Report -
 
+1. Strong Profitability:
+Total selling cost significantly exceeds buying cost, indicating a healthy overall profit with most categories maintaining positive margins.
 
+2. High vs Low Margin Categories:
+Categories like Instant & Frozen Food, Pet Care, and Snacks show high margins (35–40%), while Dairy & Breakfast and Pharmacy have lower margins (~20%), suggesting a mix of profit drivers and essential low-margin items.
 
+3. Efficient Inventory Management:
+Consistent min–max stock levels and high average shelf life (~240 days) indicate stable inventory planning, though there may be scope to optimize stock in slower-moving categories.
 
+Below is the **Order Dashboard** Analysis Report -
+
+1. High Delay Rate in Deliveries:
+Delayed orders (~3.1K) significantly exceed on-time deliveries (~1.9K), indicating a major issue in delivery efficiency that needs immediate attention.
+
+2. Balanced Payment Mode Usage:
+Card, Cash, Wallet, and UPI transactions are almost evenly distributed (~24–26%), showing no heavy dependency on a single payment method.
+
+3. Consistent Delivery Time Across Payment Modes:
+Delivery time ranges between ~5.1K to 5.9K mins across all payment types, suggesting that payment mode has minimal impact on delivery speed.
+
+Below is the **Customer Dashboard** Analysis Report -
+
+1. Moderate Customer Satisfaction:
+The average rating is 3.34, with all feedback categories (Customer Service, App Experience, Delivery, Product Quality) clustered closely (~3.3), indicating consistent but average customer satisfaction with no standout area.
+
+2. Feedback Volume is Even Across Categories:
+Delivery (1,271), Customer Service (1,266), Product Quality (1,250), and App Experience (1,213) show almost equal feedback distribution, suggesting issues and experiences are spread evenly across all areas.
+
+3. Customer Segments Show Balanced Contribution:
+Premium, Regular, New, and Inactive customers contribute similar order volumes (~6.3K–6.8K), with New customers slightly leading, indicating stable engagement but scope to improve retention and loyalty strategies.
+
+Below is the **Inventory Dashboard** Analysis Report -
+
+1. High Damaged Stock Ratio:
+Total damaged stock (11,150) is over 50% of total stock (20,910), indicating a significant loss and inefficiency in inventory handling.
+
+2. Peak Stock Activity in October:
+October shows the highest product count (1,283) and stock received (~2.5K), highlighting it as the most active inventory month, likely due to seasonal demand.
+
+3. Declining Trend in Product Count:
+Product count decreases steadily from October to July (1,283 → 627), suggesting reduced stock movement or demand over time, which may require demand planning adjustments.
+
+Below is the **Marketing Performance Dashboard** Analysis Report -
+
+1. Strong Overall Campaign Performance:
+The campaign generated ~32.19M revenue with a spend of ~16.31M, achieving an average ROAS of 2.38, indicating profitable marketing efforts.
+
+2. Email Channel Delivers Highest Efficiency:
+Email shows the highest ROAS (~2.49), making it the most cost-effective channel, while App and Social Media perform slightly lower but still profitable.
+
+3. Balanced Channel Contribution with Optimization Scope:
+Impressions and spend are fairly evenly distributed across channels, but slight variations in ROAS suggest opportunity to reallocate budget toward higher-performing channels like Email for better returns.
+
+Below is the **Order Items Dashboard** Analysis Report -
+
+1. Overall Performance:
+The platform processed 5,000 orders with a total quantity of 10,034 items, generating a total revenue of 65,212.7. The average unit price stands at 488.36, indicating consistent pricing across orders.
+
+2. Quantity-wise Revenue Insights:
+- Quantity 3 generates the highest total revenue (2.56M) and also has the highest unit price (854K).
+- Quantity 2 contributes 1.6M, while quantity 1 provides 813K in total revenue.
+- This shows that higher order quantities correlate strongly with higher revenue.
+
+3. Price–Revenue Distribution:
+The scatter plot reveals that as unit price increases, revenue also tends to rise, reinforcing a positive correlation between price and revenue. Most high-revenue points cluster around higher unit price values (above 800K).<br>
+Overall, the data suggests Blinkit’s top revenue comes from higher-quantity orders with premium unit prices, highlighting an opportunity to optimize pricing and promotions for these segments.
+
+---
+
+# 9. Conclusion
+
+The Blinkit analytics project provides a comprehensive view of business performance across sales, operations, customer behavior, inventory, and marketing. The analysis highlights strong overall profitability and balanced channel performance, while also identifying key challenges such as delivery delays, moderate customer satisfaction, and high damaged stock levels. By leveraging data-driven insights, the business can optimize high-margin categories, improve delivery efficiency, enhance customer experience, and reduce inventory losses. Overall, the project demonstrates how analytics can support better decision-making and drive operational and financial improvements.
