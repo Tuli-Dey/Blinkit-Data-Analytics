@@ -34,7 +34,8 @@ The primary objective of this project is to identify trends, patterns, and ineff
 - **Blinkit Raw Dataset.xlsx** - Raw Dataset before cleaning.
 
 ## Cleaned Data & Pivot Analysis
-- **Blinkit Cleaned Dataset.xlsx** - Dataset after cleaning process.
+- **Blinkit Cleaned Dataset.xlsx** - Dataset after cleaning process & Pivot Table Analysis.
+Below are the descriptions of Pivot Tables used in this project -
 - Blinkit Product Pivot table Analysis based on **Category** (Baby Care, Cold Drinks & Juices, Dairy & Breakfast, etc.)
 - Blinkit Order Pivot table Analysis based on **Payment Mode** (Cash. Card, etc.) & **Delivery Status** (On-Time, Delayed)
 - Blinkit Customer Pivot table Analysis based on **Customer Segment** (New, Premium, etc.) & **Feedback Category** (Delivery, Product Quality, etc.)
