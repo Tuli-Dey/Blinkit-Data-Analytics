@@ -15,8 +15,8 @@ Below are the interactive dashboards created in this project -
 - Blinkit Orders Analysis Dashboard.
 - Blinkit Customer Feedback Analysis Dashboard.
 - Blinkit Inventory Analysis Dashboard.
-- Blinkit Marketing Performance Analysis Dashboard
-- Blinkit Order Items Analysis Dashboard
+- Blinkit Marketing Performance Analysis Dashboard.
+- Blinkit Order Items Analysis Dashboard.
 
 ---
 
