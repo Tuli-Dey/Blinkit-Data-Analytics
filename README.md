@@ -31,16 +31,17 @@ The primary objective of this project is to identify trends, patterns, and ineff
 # 3. File Details
 
 ## Raw Data
-- **Raw Blinkit Dataset.xlsx** - Raw Dataset before cleaning.
-## Cleaned Data
-- **Cleaned Blinkit Dataset.xlsx** - Dataset after cleaning process.
-## Pivot Analysis
-- **Product Pivot Table.xlsx** - Pivot Analysis based on **Category** (Baby Care, Cold Drinks & Juices, Dairy & Breakfast, etc.)
-- **Order Pivot Table.xlsx** - Pivot Analysis based on **Payment Mode** (Cash. Card, etc.) & **Delivery Status** (On-Time, Delayed)
-- **Customer & Customer Feedback Pivot Table.xlsx** - Pivot Analysis based on **Customer Segment** (New, Premium, etc.) & **Feedback Category** (Delivery, Product Quality, etc.)
-- **Inventory Pivot Table.xlsx** - Pivot Analysis based on **Date** (Jan, Feb, etc.)
-- **Marketing Performance Pivot Table.xlsx** - Pivot Analysis based on **Channel** (App, Email, etc.)
-- **Order Items Pivot Table.xlsx** - Pivot Analysis based on **Quantity** (2,1,3)
+- **Blinkit Raw Dataset.xlsx** - Raw Dataset before cleaning.
+
+## Cleaned Data & Pivot Analysis
+- **Blinkit Cleaned Dataset.xlsx** - Dataset after cleaning process.
+- Blinkit Product Pivot table Analysis based on **Category** (Baby Care, Cold Drinks & Juices, Dairy & Breakfast, etc.)
+- Blinkit Order Pivot table Analysis based on **Payment Mode** (Cash. Card, etc.) & **Delivery Status** (On-Time, Delayed)
+- Blinkit Customer Pivot table Analysis based on **Customer Segment** (New, Premium, etc.) & **Feedback Category** (Delivery, Product Quality, etc.)
+- Blinkit Inventory Pivot table Analysis based on **Date** (Jan, Feb, etc.)
+- Blinkit Marketing Performance Pivot table Analysis based on **Channel** (App, Email, etc.)
+- Blinkit Order Items Pivot table Analysis based on **Quantity** (2,1,3)
+
 ## Dashboard
 Below are the Dashboards created in **Looker Studio** -
 - **Product Dashboard.png** - Screenshot of the Product dashboard.
