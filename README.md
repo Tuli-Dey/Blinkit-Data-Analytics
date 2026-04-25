@@ -98,7 +98,7 @@ Below are the description of each Columns used in the **Customer dataset** -
 | feedback_date     | Date     | The date when the customer feedback was submitted                                      |
 
 Below are the description of each Columns used in the **Inventory dataset** -
-| Column Name       | Data Type | Description                                                                            |
+| Column Name       | Data Type| Description                                                                            |
 |-------------------|----------|----------------------------------------------------------------------------------------|
 | product_id        | Integer  | Unique values for each column                                                          |
 | Date              | Date     | When stock received of the product                                                     |
